@@ -9,3 +9,154 @@ html {
 img {
     max-width: 100%;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 5fr 2fr 5fr;
+    grid-template-rows: 3fr 2fr;
+    height: 98vh;
+}
+
+.text1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+}
+
+.text2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+
+.header{
+    text-align: right;
+    position: absolute;
+    left: calc(90vw - 40px);
+    top: 0%;
+    
+}
+
+@media screen and (min-width: 400px) {
+    .tablet{
+        display: none;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .item1{
+        background-color: grey;
+        border: 2px solid black;
+    }
+    .item2{
+        background-color: grey;
+        border: 2px solid black;
+    }
+    .item3{
+        background-color: grey;
+        border: 2px solid black;
+    }
+    .item4{
+        background-color: grey;
+        border: 2px solid black;
+    }
+    .item5{
+        background-color: grey;
+        border: 2px solid black;
+    }
+    .item6{
+        background-color: grey;
+        border: 2px solid black;
+    }
+
+    .popup{
+        display: none;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    .phone{
+        display: none;
+    }
+
+    .tablet{
+        display: contents;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .item1 {
+      background-color: lavender;
+      border: 2px solid black;
+    }
+    .item2 {
+        background-color: lavender;
+        border: 2px solid black;
+      }
+    .item3 {
+        background-color: lavender;
+        border: 2px solid black;
+      }
+    .item4 {
+        background-color: lavender;
+        border: 2px solid black;
+      }
+    .item5 {
+        background-color: lavender;
+        border: 2px solid black;
+      }
+    .item6 {
+        background-color: lavender;
+        border: 2px solid black;
+      }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .phone{
+        display: none;
+    }
+
+    .tablet{
+        display: none;
+    }
+
+    .desktop{
+        display: contents;
+    }
+
+    .item1 {
+      background-color: lightgreen;
+      border: 2px solid black;
+    }
+    .item2 {
+        background-color: lightgreen;
+        border: 2px solid black;
+      }
+    .item3 {
+        background-color: lightgreen;
+        border: 2px solid black;
+      }
+    .item4 {
+        background-color: lightgreen;
+        border: 2px solid black;
+      }
+    .item5 {
+        background-color: lightgreen;
+        border: 2px solid black;
+      }
+    .item6 {
+        background-color: lightgreen;
+        border: 2px solid black;
+      }
+
+      .popup{
+        display: contents;
+      }
+
+      .text2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+      }
+  }
